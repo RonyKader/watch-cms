@@ -238,7 +238,7 @@ textarea {
    custom styles
    ========================================================================== */
 body {
-  font-family: Arial;
+  font-family: "Oswald",sans-serif;
   font-size: 14px;
   line-height: 18px;
 }
@@ -294,4 +294,40 @@ img {
 }
 .main-nav ul{
   margin: 0;
+}
+
+.admin-nav {
+  background: #e8e9e9 none repeat scroll 0 0;
+}
+.admin-nav > h2 {
+  background: #58595b none repeat scroll 0 0;
+  color: #fff;
+  font-size: 2em;
+  margin: 0;
+  padding: 0.6em;
+}
+.admin-nav ul li{
+  border-bottom: 1px solid #fff;
+}
+.admin-nav ul li a {
+  color: #58595b;
+  display: inline-block;
+  font-size: 1.3em;
+  padding: 0.8em 0.8em 0.8em 1.5em;
+  width: 100%;
+  transition: all 0.9s ease 0s;
+      -moz-transition: all 0.9s ease 0s;
+      -webkit-transition: all 0.9s ease 0s;
+}
+.admin-nav ul li ul li a{display: none;}
+
+.admin-nav ul li a:hover ul li a {
+  background: #fff;
+  display: block;
+}
+.admin-content > h2 {
+  border-bottom: 1px solid #ddd;
+  color: #58595b;
+  margin: 0 0 0.5em;
+  padding-bottom: 0.5em;
 }

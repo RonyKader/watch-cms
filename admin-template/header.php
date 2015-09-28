@@ -6,13 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tarikul Islam </title>
+        <title>WATCH | CMS</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+        
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/uikit.min.css">
@@ -45,8 +46,7 @@
             <div class="nav-area">
                 <div class="main-nav">
                   <ul class="list-unstyled list-inline">
-                    <li><a href="index.php">Login</a></li>
-                    <li><a href="register.php">Registaion</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                   </ul>
                 </div>
             </div>

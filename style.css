@@ -314,16 +314,19 @@ img {
   display: inline-block;
   font-size: 1.3em;
   padding: 0.8em 0.8em 0.8em 1.5em;
-  width: 100%;
+  width: 90%;
+  padding-left: .7em;
   transition: all 0.9s ease 0s;
       -moz-transition: all 0.9s ease 0s;
       -webkit-transition: all 0.9s ease 0s;
 }
-.admin-nav ul li ul li a{display: none;}
+/*.admin-nav ul li ul li a{display: none;}*/
 
-.admin-nav ul li a:hover ul li a {
-  background: #fff;
-  display: block;
+.admin-nav ul li ul li {
+  padding-left: 10%;
+}
+.admin-nav ul li ul li:last-child{
+  border-bottom: none;
 }
 .admin-content > h2 {
   border-bottom: 1px solid #ddd;

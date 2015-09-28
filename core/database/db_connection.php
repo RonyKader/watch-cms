@@ -1,8 +1,21 @@
 <?php 
-	$connect_errors = "Server could\'t connect";
+// Create a Database Connection 
+	$dbhost 	= "localhost";
+	$dbuser		= "root";
+	$dbpassword	= "";
+	$dbname		= "watch";
 
-	// mysql_connect( 'localhost','root','' ) or die( $connect_errors );
-	// mysql_select_db('lrphtml') or die( $connect_errors );
+	$connection = mysqli_connect( $dbhost, $dbuser, $dbpassword, $dbname );
+
+	if ( mysqli_connect_errno() ) {
+		die( "Database could't connect and error is : " . mysqli_connect_error() . "(" . mysqli_connect_errno() . ")" );
+	}
+//Query Perform
+
+
+// Return Data
+//Release return Data
+//Close Database Connection
 
 
  ?>

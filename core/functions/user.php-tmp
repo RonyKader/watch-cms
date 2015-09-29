@@ -1,4 +1,0 @@
-
-Warning: file_get_contents(): open_basedir restriction in effect. File(F:\XAMPP-PROJECT\htdocs\lrphtml\core\functions\user.php) is not within the allowed path(s): (c:/wt-nmp) in C:\Users\Tarik\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php on line 1736
-
-Warning: file_get_contents(F:\XAMPP-PROJECT\htdocs\lrphtml\core\functions\user.php): failed to open stream: Operation not permitted in C:\Users\Tarik\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php on line 1736

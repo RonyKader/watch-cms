@@ -334,3 +334,6 @@ img {
   margin: 0 0 0.5em;
   padding-bottom: 0.5em;
 }
+
+.selected{ color: green; font-weight: bold;}
+.page-selected{ color: red; font-weight: bold;}

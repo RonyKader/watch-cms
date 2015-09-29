@@ -10,6 +10,9 @@
 	if ( mysqli_connect_errno() ) {
 		die( "Database could't connect and error is : " . mysqli_connect_error() . "(" . mysqli_connect_errno() . ")" );
 	}
+	// else{
+	// 	echo "Sucess";
+	// }
 //Query Perform
 
 

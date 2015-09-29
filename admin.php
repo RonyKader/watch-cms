@@ -7,7 +7,7 @@
 <?php include ( 'admin-template/admin_nav.php' ); ?>
 	<!-- END OF ADMIN NAV AREA -->
 
-<?php includ ( 'admin-template/admin_template_content.php' ); ?>
+<?php include ( 'admin-template/admin_template_content.php' ); ?>
 <!-- END OF ADMIN TEMPLATE CONTENT AREA -->
 </section>
 

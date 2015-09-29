@@ -4,6 +4,13 @@
           <p>copyright &copy; w3zones</p>
         </div>
       </div>
+
+      <?php 
+        if ( isset( $connection )) {
+            mysqli_close( $connection );
+        }
+
+       ?>
 </footer>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/masonry.min.js"></script>

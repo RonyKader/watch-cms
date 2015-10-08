@@ -52,6 +52,7 @@
 						mysqli_free_result( $view_result );
 					
 				 ?>
+						<li><a href="create-subject.php">Create New Subject</a></li>
 				<!-- <li><a href="#">MANAGE CONTENT</a>
 					<ul class="list-unstyled">
 						<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> <a href="#">Navigation</a></li>

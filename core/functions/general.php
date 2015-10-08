@@ -1,4 +1,9 @@
 <?php
+// Header Location
+function redirect_to( $location ){
+	header( "Location:".$location );
+	exit;
+}
 // Check Query 
 function confirm_query( $set_result ){
 	if ( !$set_result ) {
